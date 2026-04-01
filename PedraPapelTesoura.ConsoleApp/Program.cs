@@ -23,7 +23,7 @@
         Console.WriteLine("=========================================");
         Console.Write("----------");
         Console.ForegroundColor = ConsoleColor.DarkGreen;
-        Console.Write(" Pedra");
+        Console.Write("Pedra");
         Console.ForegroundColor = ConsoleColor.White;
         Console.Write(",");
         Console.ForegroundColor = ConsoleColor.DarkYellow;

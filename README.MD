@@ -1,5 +1,7 @@
 # Pedra, Papel, Tesoura
 
+![](./.docs/pedrapapeltesoura.gif)
+
 ## Projeto
 
 Desenvolvido durante o curso Fullstack da [Academia do Programador](https://www.academiadoprogramador.net) 2026
