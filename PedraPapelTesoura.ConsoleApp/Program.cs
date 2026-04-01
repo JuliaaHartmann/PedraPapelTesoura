@@ -19,13 +19,28 @@
     static void ExibirTitulo()
     {
         Console.Clear();
+
         Console.WriteLine("=========================================");
-        Console.WriteLine("----------Pedra, Papel e Tesoura---------");
+        Console.Write("----------");
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.Write(" Pedra");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(",");
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.Write(" Papel");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(",");
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.Write(" Tesoura");
+        Console.ResetColor();
+        Console.WriteLine("---------");
         Console.WriteLine("=========================================");
+
     }
 
     static bool JogadorDesejaContinuar()
     {
+        Console.WriteLine("=========================================");
         Console.Write("Deseja continuar? [S/N]: ");
 
         if (Console.ReadLine()?.ToUpper() != "S")
